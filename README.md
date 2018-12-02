@@ -1,18 +1,18 @@
-# Procedural Black-Box Adversarial Examples
+# Perlin Adversarial Examples
 
 This repository contains sample code and an interactive Jupyter notebook for the paper ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks"](https://arxiv.org/abs/1810.00470).
 
 Procedural noise functions are parametrized and used to generate textures in computer graphics. In this work we use Perlin noise, a type of procedural noise, to create adversarial perturbations against popular deep neural network architectures trained on the ImageNet image classification task.
 
-The results show that adversarial examples can be generated using Perlin noise without any knowledge of the target classifier. This demonstrates the instability of current neural networks to procedural noise patterns.
+The results show that adversarial examples can be generated using Perlin noise **without any knowledge of the target classifier.** This demonstrates the instability of current neural networks to procedural noise patterns.
 
-You can play with the noise function parameters to generate your own adversarial examples with our interactive widget in the Jupyter notebook.
+You can play with the noise function parameters to make your own adversarial examples with our interactive widget in the Jupyter notebook.
 
 ![slider](slider.png)
 
 Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2018.
 
-## Python Packages
+## Python Dependencies
 
 * ipywidgets
 * jupyter
