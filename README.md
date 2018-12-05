@@ -18,8 +18,9 @@ Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Proc
 * jupyter
 * keras
 * matplotlib >= 2.0.2
-* noise >= 1.2.0
+* [noise](https://pypi.org/project/noise/)
 * numpy
+* [opensimplex](https://pypi.org/project/opensimplex/)
 * tensorflow
 
 ## Acknowledgments
