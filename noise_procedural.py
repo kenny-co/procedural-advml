@@ -17,7 +17,7 @@ def normalize(vec):
 
 # Perturb original image and clip to maximum perturbation
 def perturb(orig, max_norm, noise):
-    noise = noise * 32
+    noise = np.sign(noise) * max_norm
     noise = np.clip(noise, np.maximum(-orig, -max_norm), np.minimum(255 - orig, max_norm))
     return (orig + noise)
 
