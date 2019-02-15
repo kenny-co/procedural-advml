@@ -65,8 +65,8 @@ def get_noise_f(dim, noise_f):
             return noise.reshape(dim, dim, 3)
         
         # Parameter boundaries for Bayesian optimization
-        bounds = [{'name' : 'freq', 'type' : 'continuous', 'domain' : (1 / 160, 1 / 20)    , 'dimensionality' : 1},
-                  {'name' : 'freq_sin', 'type' : 'continuous', 'domain' : (4, 32)     , 'dimensionality' : 1}]
+        bounds = [{'name' : 'freq', 'type' : 'continuous', 'domain' : (1 / 160, 1 / 20), 'dimensionality' : 1},
+                  {'name' : 'freq_sin', 'type' : 'continuous', 'domain' : (4, 32), 'dimensionality' : 1}]
         
     # Perlin noise
     elif noise_f == 'perlin':
@@ -87,8 +87,8 @@ def get_noise_f(dim, noise_f):
             return noise.reshape(dim, dim, 3)
         
         # Parameter boundaries for Bayesian optimization
-        bounds = [{'name' : 'freq', 'type' : 'continuous', 'domain' : (1 / 160, 1 / 20)    , 'dimensionality' : 1},
-                  {'name' : 'freq_sin', 'type' : 'continuous', 'domain' : (4, 32)     , 'dimensionality' : 1},
+        bounds = [{'name' : 'freq', 'type' : 'continuous', 'domain' : (1 / 160, 1 / 20), 'dimensionality' : 1},
+                  {'name' : 'freq_sin', 'type' : 'continuous', 'domain' : (4, 32), 'dimensionality' : 1},
                   {'name' : 'octave'  , 'type' : 'discrete'  , 'domain' : (1, 2, 3, 4), 'dimensionality' : 1}]
         
     return noise_func, bounds

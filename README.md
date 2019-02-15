@@ -6,14 +6,14 @@ Procedural noise functions are used to generate textures in computer graphics. I
 
 The results show that adversarial examples can be generated using procedural noise **without any knowledge of the target classifier.** This demonstrates the instability of current neural networks to procedural noise patterns.
 
-We encourage you to explore our Python notebooks:
+We encourage you to explore our Python notebooks and make your own adversarial examples! For the best experience, we recommend using a GPU:
 
-1. **slider_perlin.ipynb** Visualize and interactively play with the parameters to make your own adversarial examples. See the other slider notebooks for more noise functions.
+1. **slider_perlin.ipynb** Visualize and interactively play with the parameters. See the other slider notebooks for different procedural noise functions.
 2. **bayes_opt.ipynb** See how Bayesian optimization can automatically find parameters to fool a classifier on an image.
 
 ![slider](slider.png)
 
-Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2018.
+Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2019.
 
 ## Python Dependencies
 
@@ -34,11 +34,11 @@ Learn more about the [Resilient Information Systems Security (RISS)](http://riss
 Please cite this paper if you use the code in this repository as part of a published research project.
 
 ```
-@article{co2018procedural,
+@article{co2019procedural,
   title={Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks},
   author={Co, Kenneth T and Mu{\~n}oz-Gonz{\'a}lez, Luis and Lupu, Emil C},
   journal={arXiv preprint arXiv:1810.00470},
-  year={2018}
+  year={2019}
 }
 ```
 This project is licensed under the MIT License, see the [LICENSE.md](LICENSE.md) file for details.

@@ -76,4 +76,6 @@ def perlin(dim_x, dim_y, period_x, period_y, octave, freq_sine, lacunarity = 2):
     noise = normalize(noise)
     noise = np.sin(noise * freq_sine * np.pi)
     noise = np.repeat(noise, 3)
-    return noise.reshape(dim_x, dim_y, 3)
+    noise = noise.reshape(dim_x, dim_y, 3)
+    #noise = noise * [-1, 1, -1]
+    return noise
