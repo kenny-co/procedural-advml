@@ -8,12 +8,15 @@ The results show that adversarial examples can be generated using procedural noi
 
 We encourage you to explore our Python notebooks and make your own adversarial examples! For the best experience, we recommend using a GPU:
 
-1. **slider_perlin.ipynb** Visualize and interactively play with the parameters. See the other slider notebooks for different procedural noise functions.
-2. **bayes_opt.ipynb** See how Bayesian optimization can automatically find parameters to fool a classifier on an image.
+1. **intro\_gabor:** A brief introduction on Gabor noise. 
+![slider](intro.png)
 
+2. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters. See the other slider notebooks for different procedural noise functions.
 ![slider](slider.png)
 
-Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2019.
+3. **intro_bopt:** See how Bayesian optimization can automatically find parameters to fool a classifier on an image.
+
+See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2019.
 
 ## Python Dependencies
 
@@ -24,7 +27,7 @@ Please see our [paper](https://arxiv.org/abs/1810.00470) for more details: "Proc
 * matplotlib >= 2.0.2
 * [noise](https://pypi.org/project/noise/)
 * numpy
-* [opensimplex](https://pypi.org/project/opensimplex/)
+* [OpenCV](https://pypi.org/project/opencv-python/)
 * tensorflow
 
 ## Acknowledgments
