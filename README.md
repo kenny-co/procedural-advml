@@ -8,7 +8,7 @@ The results show that adversarial examples can be generated using procedural noi
 
 We encourage you to explore our Python notebooks and make your own adversarial examples! For the best experience, we recommend using a GPU:
 
-1. **intro\_gabor:** A brief introduction on Gabor noise. 
+1. **intro\_gabor:** A brief introduction to Gabor noise. 
 ![slider](intro.png)
 
 2. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters. See the other slider notebooks for different procedural noise functions.
