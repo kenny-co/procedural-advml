@@ -7,7 +7,7 @@ import numpy as np
 '''
 Color noise
 
-noise           has dimension 2 or 3, pixel range [0, 1]
+noise           has dimension 2 or 3, pixel range [0, 255]
 color            is [a, b, c] where a, b, c are from {-1, 0, 1}
 '''
 def colorize(noise, color = [1, 1, 1]):
