@@ -66,13 +66,15 @@ def gaborK(ksize, sigma, theta, lambd, xy_ratio, sides):
 
 '''
 Gabor noise
-- anisotropic, randomly distributed kernels
+- randomly distributed kernels
+- anisotropic when sides = 1, pseudo-isotropic for larger "sides"
 '''
-def gaborN_rand(size, grid, num_kern, ksize, sigma, theta, lambd, xy_ratio = 1, seed = 0):
+def gaborN_rand(size, grid, num_kern, ksize, sigma, theta, lambd, xy_ratio = 1, sides = 1, seed = 0):
     np.random.seed(seed)
     
     # Gabor kernel
-    gabor_kern = cv2.getGaborKernel((ksize, ksize), sigma, theta, lambd, xy_ratio, 0, ktype = cv2.CV_32F)
+    if sides != 1: gabor_kern = gaborK(ksize, sigma, theta, lambd, xy_ratio, sides)
+    else: gabor_kern = cv2.getGaborKernel((ksize, ksize), sigma, theta, lambd, xy_ratio, 0, ktype = cv2.CV_32F)
     
     # Sparse convolution noise
     sp_conv = np.zeros([size, size])
