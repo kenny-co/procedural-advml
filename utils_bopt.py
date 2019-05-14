@@ -44,13 +44,13 @@ def get_noise_f(size, noise_f):
     # Perlin noise
     if noise_f == 'perlin':
         def noise_func(params):
-            freq, freq_sin, octave = params
+            freq, freq_sine, octave = params
             noise = perlin(size, 1 / freq, int(octave), freq_sine)
             return colorize(noise)
         
         # Parameter boundaries for Bayesian optimization
         bounds = [{'name' : 'freq', 'type' : 'continuous', 'domain' : (1 / 160, 1 / 20), 'dimensionality' : 1},
-                  {'name' : 'freq_sin', 'type' : 'continuous', 'domain' : (4, 32), 'dimensionality' : 1},
+                  {'name' : 'freq_sine', 'type' : 'continuous', 'domain' : (4, 32), 'dimensionality' : 1},
                   {'name' : 'octave'  , 'type' : 'discrete'  , 'domain' : (1, 2, 3, 4), 'dimensionality' : 1}]
         
     return noise_func, bounds
