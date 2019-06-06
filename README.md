@@ -32,7 +32,7 @@ See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural 
 
 ## Acknowledgments
 
-Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. The main author is a PhD candidate supported by [DataSpartan](http://dataspartan.co.uk/). DataSpartan is not affiliated with the university.
+Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. The main author is a PhD candidate who is partially supported by [Data Spartan](http://dataspartan.co.uk/). DataSpartan is not affiliated with the university.
 
 Please cite this paper if you use the code in this repository as part of a published research project.
 
