@@ -1,6 +1,6 @@
-# Procedural Adversarial Examples
+# Procedural Adversarial Perturbations
 
-This repository contains sample code and an interactive Jupyter notebook for the paper ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Neural Networks"](https://arxiv.org/abs/1810.00470).
+This repository contains sample code and an interactive Jupyter notebook for the paper ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks"](https://arxiv.org/abs/1810.00470).
 
 Procedural noise functions are used to generate textures in computer graphics. In this work we present various types of procedural noise to generate adversarial perturbations against popular deep neural network architectures trained on the ImageNet image classification task.
 
@@ -32,7 +32,7 @@ See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural 
 
 ## Acknowledgments
 
-Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. The main author is a PhD student supported by [DataSpartan](http://dataspartan.co.uk/). DataSpartan is not affiliated with the university.
+Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. The main author is a PhD candidate supported by [DataSpartan](http://dataspartan.co.uk/). DataSpartan is not affiliated with the university.
 
 Please cite this paper if you use the code in this repository as part of a published research project.
 
