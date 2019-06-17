@@ -2,7 +2,7 @@
 
 This repository contains sample code and an interactive Jupyter notebook for the papers ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks"](https://arxiv.org/abs/1810.00470) and ["Sensitivity of Deep Convolutional Networks to Gabor Noise"](https://openreview.net/forum?id=HJx08NSnnE).
 
-In this work, we show that _universal adversarial perturbations_ can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are a lightweight and inexpensive way for generating textures in computer graphics. Our results demonstrate the instability of existing deep convolutional networks on computer vision tasks to these easy to generate patterns.
+In this work, we show that _universal adversarial perturbations_ can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are a lightweight and low-cost way for generating textures in computer graphics. Our results demonstrate the instability of existing deep convolutional networks on computer vision tasks to these inexpensive patterns.
 
 We encourage you to explore our Python notebooks and make your own adversarial examples:
 
