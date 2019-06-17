@@ -42,9 +42,10 @@ Please cite these papers, where appropriate, if you use code in this repository 
   year={2019}
 }
 
-@article{co2019sensitivity,
+@inproceedings{co2019sensitivity,
   title={Sensitivity of Deep Convolutional Networks to Gabor Noise},
-  journal={ICML 2019 Workshop on Identifying and Understanding Deep Learning Phenomena},
+  author={Co, Kenneth T and Mu{\~n}oz-Gonz{\'a}lez, Luis and Lupu, Emil C},
+  booktitle={ICML 2019 Workshop on Identifying and Understanding Deep Learning Phenomena},
   year={2019}
 }
 ```
