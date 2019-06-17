@@ -2,17 +2,17 @@
 
 This repository contains sample code and an interactive Jupyter notebook for the papers ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks"](https://arxiv.org/abs/1810.00470) and ["Sensitivity of Deep Convolutional Networks to Gabor Noise"](https://openreview.net/forum?id=HJx08NSnnE).
 
-In this work, we show that _universal adversarial perturbations_ can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are a lightweight and low-cost way for generating textures in computer graphics. Our results demonstrate the instability of existing deep convolutional networks on computer vision tasks to these inexpensive patterns.
+In this work, we show that _universal adversarial perturbations_ can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are fast and lightweight methods for generating textures in computer graphics. Our results demonstrate the instability of existing deep convolutional networks on computer vision tasks to these inexpensive patterns.
 
 We encourage you to explore our Python notebooks and make your own adversarial examples:
 
-1. **intro\_gabor:** A brief introduction to Gabor noise. 
+1. **intro_bopt:** See how Bayesian optimization can find better parameters for the procedural noise functions.
+
+2. **intro\_gabor:** A brief introduction to Gabor noise. 
 ![slider](intro.png)
 
-2. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters to see how it affects model predictions.
+3. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters to see how it affects model predictions.
 ![slider](slider.png)
-
-3. **intro_bopt:** See how Bayesian optimization can automatically find parameters to fool a classifier on an image.
 
 See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2019.
 
