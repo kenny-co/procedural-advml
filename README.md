@@ -14,7 +14,7 @@ We encourage you to explore our Python notebooks and make your own adversarial e
 3. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters to see how it affects model predictions.
 ![slider](slider.png)
 
-See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. arXiv 2019.
+See our [paper](https://arxiv.org/abs/1810.00470) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks." Kenneth T. Co, Luis Muñoz-González, Sixte de Maupeou, Emil C. Lupu. arXiv 2019.
 
 ## Python Dependencies
 
@@ -37,7 +37,7 @@ Please cite these papers, where appropriate, if you use code in this repository 
 ```
 @article{co2019procedural,
   title={Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks},
-  author={Co, Kenneth T and Mu{\~n}oz-Gonz{\'a}lez, Luis and Lupu, Emil C},
+  author={Co, Kenneth T and Mu{\~n}oz-Gonz{\'a}lez, Luis and de Maupeou, Sixte and Lupu, Emil C},
   journal={arXiv preprint arXiv:1810.00470},
   year={2019}
 }
