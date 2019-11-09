@@ -1,4 +1,4 @@
-# Procedural Adversarial Perturbations
+# Procedural Noise UAPs
 
 This repository contains sample code and an interactive Jupyter notebook for the papers:
 
