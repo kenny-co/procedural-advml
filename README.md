@@ -5,37 +5,27 @@ This repository contains sample code and an interactive Jupyter notebook for the
 * ["Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks"](https://dl.acm.org/citation.cfm?id=3345660) (CCS'19)
 * ["Sensitivity of Deep Convolutional Networks to Gabor Noise"](https://openreview.net/forum?id=HJx08NSnnE) (ICML'19 Workshop)
 
-In this work, we show that _universal adversarial perturbations_ can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are fast and lightweight methods for generating textures in computer graphics, this enables low cost black-box attacks on deep convolutional networks for computer vision tasks. 
+In this work, we show that Universal Adversarial Perturbations (UAPs) can be generated with **procedural noise** functions without any knowledge of the target model. Procedural noise functions are fast and lightweight methods for generating textures in computer graphics, this enables low cost black-box attacks on deep convolutional networks for computer vision tasks. 
 
 We encourage you to explore our Python notebooks and make your own adversarial examples:
 
 1. **intro_bopt:** See how Bayesian optimization can find better parameters for the procedural noise functions.
 
 2. **intro\_gabor:** A brief introduction to Gabor noise. 
-![slider](intro.png)
+![slider](docs/intro.png)
 
 3. **slider\_gabor, slider\_perlin:** Visualize and interactively play with the parameters to see how it affects model predictions.
-![slider](slider.png)
+![slider](docs/slider.png)
 
 See our [paper](https://dl.acm.org/citation.cfm?id=3345660) for more details: "Procedural Noise Adversarial Examples for Black-Box Attacks on Deep Convolutional Networks." Kenneth T. Co, Luis Muñoz-González, Emil C. Lupu. CCS 2019.
 
-## Python Dependencies
-
-* [GPy](https://pypi.org/project/GPyOpt/)
-* [GPyOpt](https://pypi.org/project/GPy/)
-* ipywidgets
-* Keras
-* matplotlib >= 2.0.2
-* [noise](https://pypi.org/project/noise/)
-* numpy
-* [OpenCV](https://pypi.org/project/opencv-python/)
-* tensorflow
 
 ## Acknowledgments
+<img src="docs/dataspartan.jpeg" align="right" width="30%">
 
-Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. The main author is partially supported by [Data Spartan](http://dataspartan.co.uk/).
+Learn more about the [Resilient Information Systems Security (RISS)](http://rissgroup.org/) group at Imperial College London. Kenneth Co is partially supported by [DataSpartan](http://dataspartan.co.uk/).
 
-Please cite these papers, where appropriate, if you use code in this repository as part of a published research project.
+If you find this project useful in your research, please consider citing:
 
 ```
 @inproceedings{co2019procedural,

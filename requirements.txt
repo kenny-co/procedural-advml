@@ -1,0 +1,9 @@
+gpy
+gpyopt
+ipywidgets
+keras
+matplotlib
+noise
+numpy
+opencv-python
+tensorflow
